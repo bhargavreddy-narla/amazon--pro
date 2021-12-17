@@ -1,0 +1,101 @@
+.cartitems {
+  width: 100%;
+  .cartitems--Header {
+    font-size: 4rem;
+    color: navy;
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+  .cartitems--ClearCart {
+    float: right;
+    margin-right: 60px;
+    margin-top: -4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .cartitems--Empty {
+    color: navy;
+    font-size: 2rem;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+
+  .carditems--List {
+    width: 100%;
+    width: 300px;
+    height: 450px;
+    justify-content: space-evenly;
+    display: inline-block;
+    padding: 0px 20px;
+    .cartitems--Image {
+      width: 100%;
+      height: 250px;
+      padding: 10px;
+      display: block;
+      object-fit: cover;
+      cursor: pointer;
+    }
+    .cartitem--Title {
+      text-transform: uppercase;
+      font-family: "Times New Roman", Times, serif;
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 24px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+  .cartitem--Functions {
+    .cartitem--Add {
+      border: none;
+      color: white;
+      width: 40px;
+      font-size: 1.5rem;
+    }
+    .cartitem--Remove {
+      margin-left: 1rem;
+      border: none;
+      color: white;
+      width: 40px;
+      font-size: 1.5rem;
+    }
+  }
+  .cartitem--Price {
+    font-size: 24px;
+    color: black;
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+  .cartitems--Totalprice {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 1rem;
+
+    .cartitems--Totalprice--Heading {
+      color: navy;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .cartitems--Totalprice--Value {
+      color: green;
+      font-size: 40px;
+      margin-left: 5px;
+    }
+    .cartitems--Totalprice--Value--Text {
+      font-size: 20px;
+      color: grey;
+      margin-left: 5px;
+    }
+  }
+}

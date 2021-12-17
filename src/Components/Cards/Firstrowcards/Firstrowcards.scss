@@ -1,0 +1,42 @@
+.maincards {
+  justify-content: space-evenly;
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+  .firstrow--Firstcard {
+    //width: 28rem;
+    width: 100%;
+    height: 25rem;
+    border: 1px solid grey;
+    background: lemonchiffon;
+  }
+  .firstCard {
+    display: flex;
+    padding: 1rem 1rem;
+    cursor: pointer;
+  }
+  .firstCard--Img {
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .firstCard--Title {
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 1rem;
+  }
+  .firstCard--SubTitle {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 5px;
+  }
+  .card--Link {
+    color: green;
+    text-decoration: none;
+    margin-top: 1rem;
+    margin-right: -5rem;
+    cursor: pointer;
+  }
+  .card--Link:hover {
+    text-decoration: underline;
+  }
+}

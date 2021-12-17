@@ -1,0 +1,72 @@
+.signin {
+  border: 1px solid black;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  .signin--Form {
+    margin: 10px 10px;
+    padding: 30px;
+    justify-content: center;
+    .signin--Form--EmailData {
+      display: flex;
+      flex-direction: column;
+      .signin--Form--Email {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+      .signin--Form--Emailinput {
+        margin-bottom: 0.5rem;
+      }
+    }
+    .signin--Form--PasswordData {
+      display: flex;
+      flex-direction: column;
+      .signin--Form--Password {
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 14px;
+      }
+      .signin--Form--Passwordinput {
+        margin-bottom: 0.5rem;
+      }
+    }
+    .signin--Form--Checkdata {
+      margin-top: 0.5rem;
+      text-align: left;
+      .signin--Form--Checkboxdata {
+        margin-left: 5px;
+        text-decoration: underline;
+        cursor: pointer;
+        color: blue;
+      }
+    }
+    .signin--Form--Buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .signin--Form--Loginbutton {
+        width: 10rem;
+        padding: 2px;
+        margin-top: 2rem;
+        font-size: 18px;
+        border-radius: 10px;
+        background: green;
+        border: none;
+      }
+      .span {
+        margin-top: 1rem;
+      }
+    }
+  }
+  .signin--Form--Createbutton {
+    width: 15rem;
+    padding: 2px;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    border-radius: 10px;
+    background: orange;
+    border: none;
+  }
+}

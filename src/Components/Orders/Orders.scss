@@ -1,0 +1,15 @@
+.orders--Card {
+  margin: 30px 30px;
+  height: 30vh;
+  justify-content: center;
+  border: 1px dashed grey;
+  .orders--Heading {
+    text-transform: capitalize;
+    font-family: "Times New Roman", Times, serif;
+    color: navy;
+    text-align: left;
+    font-size: 3.5rem;
+    padding-left: 2rem;
+    cursor: pointer;
+  }
+}

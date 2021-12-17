@@ -1,0 +1,55 @@
+.signup--Form {
+  margin: 10px 10px;
+  padding: 10px 20px;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  .signup--Form--UsernameData {
+    display: flex;
+    flex-direction: column;
+    .signup--Form--Username {
+      text-align: left;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    .signup--Form--Usernameinput {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .signup--Form--EmailData {
+    display: flex;
+    flex-direction: column;
+    .signup--Form--Email {
+      text-align: left;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    .signup--Form--Emailinput {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .signup--Form--PasswordData {
+    display: flex;
+    flex-direction: column;
+    .signup--Form--Password {
+      text-align: left;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    .signup--Form--Passwordinput {
+      margin-bottom: 0.5rem;
+    }
+  }
+  .signup--Form--Button {
+    width: 10rem;
+    padding: 10px;
+    margin-top: 1rem;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: palevioletred;
+  }
+}
