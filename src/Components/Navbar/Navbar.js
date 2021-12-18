@@ -6,7 +6,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 
-const Navbar = ({ cartItems }) => {
+const Navbar = () => {
   return (
     <div className="navbar">
       {/* logo */}
@@ -64,7 +64,7 @@ const Navbar = ({ cartItems }) => {
         {/* cart */}
         <Link to="/cart">
           <div className="navbar--Cart">
-            <ShoppingCartIcon />
+            <ShoppingCartIcon className="navbar--Cart--Icon" />
           </div>
         </Link>
       </div>

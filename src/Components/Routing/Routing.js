@@ -16,7 +16,6 @@ const Changing = ({
   return (
     <div>
       <Routes>
-        <Route exact path="/signin" element={<Signin />} />
         <Route
           exact
           path="/"
@@ -39,8 +38,9 @@ const Changing = ({
             />
           }
         />
-        <Route exact path="/orders" element={<Orders />} />
+        <Route exact path="/signin" element={<Signin />} />
         <Route exact path="/createaccount" element={<Signup />} />
+        <Route exact path="/orders" element={<Orders />} />
       </Routes>
     </div>
   );
